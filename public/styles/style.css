@@ -1,0 +1,11 @@
+body {
+    background-color: beige;
+}
+
+.search-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+{{!-- <h1>Tracks for the Album {{}}</h1> --}}
+<div>
+    <ul>
+        {{#each items}}
+        <li>
+            <figure>
+                <figcaption>{{name}}:</figcaption>
+                <audio controls src="{{preview_url}}">
+                    <a href="{{preview_url}}"> Download </a>
+                </audio>
+            </figure>
+        </li>
+        {{/each}}
+    </ul>
+</div>

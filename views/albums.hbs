@@ -1,0 +1,12 @@
+<div>
+    <h1>Albums for {{name}}</h1>
+    <div >
+        <ul class="search-list">
+            {{#each items}}
+            <li>
+                {{> albumCard this}}
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
